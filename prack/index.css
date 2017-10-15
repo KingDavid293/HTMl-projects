@@ -1,13 +1,19 @@
 body {
   background-color: #e6f2ff; }
 
+h1 {
+  text-align: center;
+  padding: 1rem; }
+
 section {
   background-color: #cc66ff;
   width: 780px;
   padding: 20px;
   color: #333;
   margin: auto;
-  border-radius: 7px; }
+  border-radius: 7px;
+  position: relative;
+  z-index: -2; }
 
 .thumb1 {
   height: 120px;
@@ -15,8 +21,43 @@ section {
   border-radius: 10%;
   background-color: #333;
   color: #e6f2ff;
-  padding: 1rem;
-  text-align: center;
-  margin-left: 150px; }
+  margin: 0 180px -30px; }
+
+.thumb2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #cc66ff;
+  color: #cc66ff;
+  margin: -50px 1050px; }
+
+.btn-1 {
+  padding: 15px 20px;
+  border-radius: 7px;
+  background-color: #6600cc;
+  color: #fff;
+  border-width: 0;
+  border-style: none;
+  cursor: pointer;
+  display: block;
+  margin: auto; }
+  .btn-1:hover {
+    background-color: #9933ff; }
+
+.btn-2 {
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  border-width: 0;
+  border-style: none;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  font-size: 2rem; }
+  .btn-2:hover {
+    background-color: #9933ff; }
+  .btn-2:hover {
+    background-color: #1a0033; }
 
 /*# sourceMappingURL=index.css.map */

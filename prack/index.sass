@@ -1,24 +1,38 @@
 // variable
-$brand-main:   #6600cc
-$brand-sub:    #cc66ff
-$brand-dark:   #333
-$brand-light:  #e6f2ff
-
-
+$brand-main: #6600cc
+$brand-sub: #cc66ff
+$brand-dark: #333
+$brand-light: #e6f2ff
 
 // mixins
-=shaping($height,$width,$bg,$color,$rad)
- height:              $height
- width:               $width
- border-radius:       $rad
- background-color:    $bg
- color:               $color
+=shaping($height, $width, $bg, $color, $rad)
+  height: $height
+  width: $width
+  border-radius: $rad
+  background-color: $bg
+  color: $color
 
+=btn-main($padding, $rad, $bg, $color)
+  padding: $padding
+  border-radius: $rad
+  background-color: $bg
+  color: $color
+  border-width: 0
+  border-style: none
+  cursor: pointer
+  display: block
+  margin: auto
+  &:hover
+    background-color: lighten($brand-main, 20%)
 
 
 //styles
 body
   background-color: $brand-light
+
+h1
+  text-align: center
+  padding: 1rem
 
 section
   background-color: $brand-sub
@@ -27,9 +41,24 @@ section
   color: $brand-dark
   margin: auto
   border-radius: 7px
+  position: relative
+  z-index: -2
 
 .thumb1
-  +shaping(120px,120px,$brand-dark,$brand-light,10%)
-  padding: 1rem
-  text-align: center
-  margin-left: 150px
+  +shaping(120px, 120px, $brand-dark, $brand-light, 10%)
+
+  margin: 0 180px -30px
+
+.thumb2
+  +shaping(100px, 100px, $brand-sub, $brand-sub, 50%)
+
+  margin: (-50px) 1050px
+
+.btn-1
+  +btn-main(15px 20px, 7px, $brand-main, #fff)
+
+.btn-2
+  +btn-main(30px, 50%, $brand-dark, white)
+  font-size: 2rem
+  &:hover
+    background-color: darken($brand-main, 30%)
