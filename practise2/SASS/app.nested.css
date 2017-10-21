@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  color: #eee;
+  font-family: Georgia, Times, serif; }
+
+#header {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: #008975; }
+  #header h1 {
+    margin: 0;
+    padding: 10px 0px; }
+
+#main-content {
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #eee; }
+
+#main-nav {
+  background-color: #00aa8d;
+  width: 100%;
+  display: block;
+  padding: 10px 0 40px; }
+  #main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #main-nav ul li {
+      float: left;
+      margin-left: 50px; }
+      #main-nav ul li a {
+        text-decoration: none;
+        font-size: 22px;
+        color: #eee; }
+        #main-nav ul li a:hover {
+          color: red; }
+
+/*# sourceMappingURL=app.nested.css.map */
