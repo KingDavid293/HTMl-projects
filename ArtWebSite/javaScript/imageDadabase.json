@@ -1,0 +1,25 @@
+
+data = [
+  "DigitalArt": [
+    {
+      "imageID" : "1",
+      "imageLoc": "assets/image1.jpg",
+      "imageCaption": "Wonder Women!"
+    },
+    {
+      "imageID" : "2",
+      "imageLoc": "assets/image2.jpg",
+      "imageCaption": "Constalitions!"
+    },
+    {
+      "imageID" : "3",
+      "imageLoc": "assets/image3.jpg",
+      "imageCaption": "Princess!"
+    },
+    {
+      "imageID" : "4",
+      "imageLoc": "assets/image4.jpg",
+      "imageCaption": "Constalitions!"
+    }
+  ]
+]

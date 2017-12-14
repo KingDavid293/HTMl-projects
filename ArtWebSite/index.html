@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>ArtLand</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css\BootStrap\bootstrap-grid.min.css" />
   <link rel="stylesheet" href="css\BootStrap\bootstrap.min.css" />
   <link rel="stylesheet" href="css\index.css" />
@@ -84,7 +85,7 @@
       <div class="row">
         <div class="col"></div>
         <div class="col-md-12 col-lg-3 AboutMe-img-cont">
-          <img class="img-fluid AboutMe-pic" src="assets\ProfilePic.jpg" />
+          <img class="img-fluid AboutMe-pic" src="assets/ProfilePic.jpg" />
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="row">
@@ -113,49 +114,8 @@
           <h1 class="display-5">My Art Display</h1>
         </div>
       </div>
-      <div class="card-container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12 card-padding">
-            <a class="card-link" href="#">
-              <div class="card">
-                <img class="card-img-top" src="assets\ProfilePic.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Card title</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 card-padding">
-            <a class="card-link" href="#">
-              <div class="card">
-                <img class="card-img-top" src="assets\ProfilePic.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Card title</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 card-padding">
-            <a class="card-link" href="#">
-              <div class="card">
-                <img class="card-img-top" src="assets\ProfilePic.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Card title</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 card-padding">
-            <a class="card-link" href="#">
-              <div class="card">
-                <img class="card-img-top" src="assets\ProfilePic.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Card title</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
+      <div class="card-container" id="CardContainer">
+
       </div>
     </div>
 
@@ -163,7 +123,15 @@
 
     <div class="foot">
       <div class="row">
-
+        <div class="col-lg-7">
+          <h1 class="Thankyounote">Thank you for visiting </h1>
+        </div>
+        <div class="col-lg-5 SocialMedia">
+          <a href="#" class="SMediaCont"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+          <a href="#" class="SMediaCont"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+          <a href="#" class="SMediaCont"><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
+          <a href="#" class="SMediaCont"><i class="fa fa-pinterest fa-3x" aria-hidden="true"></i></a>
+        </div>
       </div>
     </div>
   </div>
@@ -181,6 +149,13 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="javaScript\index.js"></script>
+  <script>
+    OnStart();
+  </script>
+
+
 
 </body>
 
